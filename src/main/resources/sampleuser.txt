@@ -1,0 +1,45 @@
+curl -X POST --user 54MU3ER1791G39L6WSRV8DDYW:cWJs7W+oloIvCqi7JiVzSEPeaPy2pJsUYpZnOyPOQGk -H "Accept: application/json" -H "Content-Type: application/json" -d '{"givenName": "Dom","surname":"MA","username":"DomMA","email":"dom@enterprise.com","password":"95868897Myz"}' "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/accounts"
+
+{
+    "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce",
+    "username": "DomMA",
+    "email": "dom@enterprise.com",
+    "givenName": "Dom",
+    "middleName": null,
+    "surname": "MA",
+    "fullName": "Dom MA",
+    "status": "ENABLED",
+    "createdAt": "2016-04-13T03:22:33.727Z",
+    "modifiedAt": "2016-04-13T03:22:33.727Z",
+    "emailVerificationToken": null,
+    "customData": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/customData"
+    },
+    "providerData": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/providerData"
+    },
+    "directory": {
+        "href": "https://api.stormpath.com/v1/directories/2mHlxCxmt8T093NyzgJl42"
+    },
+    "tenant": {
+        "href": "https://api.stormpath.com/v1/tenants/63SktzQp29rqZvB6A3aOjc"
+    },
+    "groups": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/groups"
+    },
+    "applications": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/applications"
+    },
+    "groupMemberships": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/groupMemberships"
+    },
+    "apiKeys": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/apiKeys"
+    },
+    "accessTokens": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/accessTokens"
+    },
+    "refreshTokens": {
+        "href": "https://api.stormpath.com/v1/accounts/7V7vXhF9iWVNEln4uxqKce/refreshTokens"
+    }
+}
