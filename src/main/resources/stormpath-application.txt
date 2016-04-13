@@ -1,0 +1,55 @@
+curl -X POST --user 54MU3ER1791G39L6WSRV8DDYW:cWJs7W+oloIvCqi7JiVzSEPeaPy2pJsUYpZnOyPOQGk -H "Accept:application/json" -H "Content-Type:application/json" -d '{"name":"Apache Shiro Tutorial Webapp"}' 'https://api.stormpath.com/v1/applications?createDirectory=true'
+
+$YOUR_APPLICATION_ID = 2mGw4ZRaeCoUQmKMY6fkR4
+
+{
+    "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4",
+    "name": "Apache Shiro Tutorial Webapp",
+    "description": null,
+    "status": "ENABLED",
+    "createdAt": "2016-04-13T03:11:03.849Z",
+    "modifiedAt": "2016-04-13T03:11:03.879Z",
+    "authorizedCallbackUris": [],
+    "tenant": {
+        "href": "https://api.stormpath.com/v1/tenants/63SktzQp29rqZvB6A3aOjc"
+    },
+    "defaultAccountStoreMapping": {
+        "href": "https://api.stormpath.com/v1/accountStoreMappings/2mIxS6wttcTYjwYHI4ywHu"
+    },
+    "defaultGroupStoreMapping": {
+        "href": "https://api.stormpath.com/v1/accountStoreMappings/2mIxS6wttcTYjwYHI4ywHu"
+    },
+    "customData": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/customData"
+    },
+    "oAuthPolicy": {
+        "href": "https://api.stormpath.com/v1/oAuthPolicies/2mGw4ZRaeCoUQmKMY6fkR4"
+    },
+    "samlPolicy": {
+        "href": "https://api.stormpath.com/v1/samlPolicies/2mGw4ZRaeCoUQmKMY6fkR4"
+    },
+    "accounts": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/accounts"
+    },
+    "groups": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/groups"
+    },
+    "accountStoreMappings": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/accountStoreMappings"
+    },
+    "loginAttempts": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/loginAttempts"
+    },
+    "passwordResetTokens": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/passwordResetTokens"
+    },
+    "apiKeys": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/apiKeys"
+    },
+    "verificationEmails": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/verificationEmails"
+    },
+    "authTokens": {
+        "href": "https://api.stormpath.com/v1/applications/2mGw4ZRaeCoUQmKMY6fkR4/authTokens"
+    }
+}
