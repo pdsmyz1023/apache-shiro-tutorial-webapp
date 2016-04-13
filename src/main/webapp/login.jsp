@@ -35,15 +35,27 @@
                         <h3 class="panel-title">Please sign in</h3>
                     </div>
                     <div class="panel-body">
+
+                        <%--1. The form’s action value is the empty string. When a form does not have an action value, the browser will submit the form request to the same URL. This is fine, as we will tell Shiro what that URL is shortly so Shiro can automatically process any login submissions. The /login.jsp = authc line in shiro.ini is what tells the authc filter to process the submission.--%>
+
                         <form name="loginform" action="" method="POST" accept-charset="UTF-8" role="form">
                             <fieldset>
                                 <div class="form-group">
+
+                                    <%--2. There is a username form field. The Shiro authc filter will automatically look for a username request parameter during login submission and use that as the value during login (many Realms allow this to be an email or a username).--%>
+
                                     <input class="form-control" placeholder="Username or Email" name="username" type="text">
                                 </div>
                                 <div class="form-group">
+
+                                    <%--3. There is a password form field. The Shiro authc filter will automatically look for a password request parameter during login submission.--%>
+
                                     <input class="form-control" placeholder="Password" name="password" type="password" value="">
                                 </div>
                                 <div class="checkbox">
+
+                                    <%--4. There is a rememberMe checkbox whose ‘checked’ state can be a ‘truthy’ value (true, t, 1, enabled, y, yes, or on).--%>
+
                                     <label>
                                         <input name="rememberMe" type="checkbox" value="true"> Remember Me
                                     </label>
