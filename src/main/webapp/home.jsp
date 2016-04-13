@@ -60,7 +60,7 @@
     <h3>Roles you have:</h3>
 
     <p>
-        <shiro:hasRole name="Captains">Captains<br/></shiro:hasRole>
+        <shiro:hasRole name="Captains"><a href="<c:url value="/captain"/>">Captains</a><br/></shiro:hasRole>
         <shiro:hasRole name="Officers">Bad Guys<br/></shiro:hasRole>
         <shiro:hasRole name="Enlisted">Enlisted<br/></shiro:hasRole>
     </p>
